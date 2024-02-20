@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=339;y=9"/>
+      <property name="length" type="double" value="12.864583333333336"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="32"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="20"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="7"/>
+      </property>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="disable-struts" type="bool" value="true"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.02412523540489642"/>
+        <value type="double" value="0.0063888888888888893"/>
+        <value type="double" value="0.083333333333333343"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="span-monitors" type="bool" value="false"/>
+      <property name="autohide-behavior" type="uint" value="1"/>
+    </property>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-2" type="empty">
+      <property name="position" type="string" value="p=2;x=1874;y=9"/>
+      <property name="size" type="uint" value="18"/>
+      <property name="disable-struts" type="bool" value="true"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="8"/>
+      </property>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="length" type="double" value="1"/>
+      <property name="position-locked" type="bool" value="true"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-6" type="string" value="systray">
+      <property name="names-visible" type="array">
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="volumeicon"/>
+        <value type="string" value="xfce terminal"/>
+        <value type="string" value="blueman-applet"/>
+        <value type="string" value="apt-notifier.py"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="fbxkb"/>
+      </property>
+      <property name="show-frame" type="bool" value="false"/>
+      <property name="names-hidden" type="array">
+      </property>
+      <property name="size-max" type="uint" value="24"/>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="names-ordered" type="array">
+        <value type="string" value="apt-notifier.py"/>
+        <value type="string" value="yad"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="clipit"/>
+      </property>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “walkerwonderwifi” active: walkerwonderwifi (44%)"/>
+        <value type="string" value="onboard"/>
+        <value type="string" value="wi-fi network connection “walkerwonderwifi” active: walkerwonderwifi (46%)"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="clipman"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="steam"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="apt-notifier.py"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="mx-usb-unmounter"/>
+      </property>
+    </property>
+    <property name="plugin-20" type="string" value="whiskermenu"/>
+    <property name="plugin-5" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="brave.instance3942;brave.instance3982;brave.instance4094;brave.instance4486;brave.instance4783;brave.instance4801;brave.instance6692;brave.instance9147;firefox.instance35069;firefox.instance_1_280;firefox.instance_1_57"/>
+    </property>
+    <property name="plugin-7" type="string" value="power-manager-plugin"/>
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="max-menu-items" type="uint" value="20"/>
+      </property>
+      <property name="settings" type="empty">
+        <property name="max-texts-in-history" type="uint" value="170"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="clock">
+      <property name="digital-layout" type="uint" value="3"/>
+      <property name="mode" type="uint" value="2"/>
+      <property name="show-meridiem" type="bool" value="false"/>
+      <property name="flash-separators" type="bool" value="false"/>
+      <property name="digital-time-font" type="string" value="System-ui 17"/>
+    </property>
+  </property>
+  <property name="clipman" type="empty">
+    <property name="tweaks" type="empty">
+      <property name="never-confirm-history-clear" type="bool" value="false"/>
+    </property>
+  </property>
+</channel>
